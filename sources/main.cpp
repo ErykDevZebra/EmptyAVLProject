@@ -6,6 +6,9 @@
 
 int main()
 {
-    std::cout << "Hello, world!" << std::endl;
+    avl::Image image = avl::Image();
+    avl::TestImage(avl::TestImageId::Baboon, image);
+
+    std::cout << "Baboon image size " <<  image.Size().Height() << " " << image.Size().Width() << std::endl;
     return 0;
 }
