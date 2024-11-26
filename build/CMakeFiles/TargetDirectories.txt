@@ -1,8 +1,0 @@
-/home/mk6554/Desktop/EmptyAVLProject/build/CMakeFiles/MyExecutable.dir
-/home/mk6554/Desktop/EmptyAVLProject/build/CMakeFiles/clear.dir
-/home/mk6554/Desktop/EmptyAVLProject/build/CMakeFiles/edit_cache.dir
-/home/mk6554/Desktop/EmptyAVLProject/build/CMakeFiles/rebuild_cache.dir
-/home/mk6554/Desktop/EmptyAVLProject/build/CMakeFiles/list_install_components.dir
-/home/mk6554/Desktop/EmptyAVLProject/build/CMakeFiles/install.dir
-/home/mk6554/Desktop/EmptyAVLProject/build/CMakeFiles/install/local.dir
-/home/mk6554/Desktop/EmptyAVLProject/build/CMakeFiles/install/strip.dir

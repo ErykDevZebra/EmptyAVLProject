@@ -1,1 +1,0 @@
-/usr/bin/g++ -g CMakeFiles/MyExecutable.dir/home/mk6554/Desktop/EmptyAVLProject/sources/main.cpp.o -o MyExecutable  -Wl,-rpath,/opt/AuroraVision/AVL-5.4.7/lib/x86_64-linux-gnu: /opt/AuroraVision/AVL-5.4.7/lib/x86_64-linux-gnu/libAVL.so 
