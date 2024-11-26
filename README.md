@@ -14,7 +14,7 @@ CMake will automatically fing AVL package.
    ```sh
    git clone https://github.com/ErykDevZebra/EmptyAVLProject.git
    ```
-2. Open console at /build dir, and run
+2. Open console at build directory, and run
    ```sh
    cmake ./
    make
