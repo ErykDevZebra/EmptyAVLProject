@@ -10,7 +10,7 @@ Having Aurora [Aurora™ Vision Library](https://www.adaptive-vision.com/en/user
 CMake will automatically fing AVL package.
 
 ### Usage
-1. Clone the repo
+1. Clone this repository
    ```sh
    git clone https://github.com/ErykDevZebra/EmptyAVLProject.git
    ```
