@@ -1,6 +1,6 @@
 <!-- GETTING STARTED -->
 ## Getting Started
-This repository contains a ready to use project template for compiling a program using AVL library on Linux.
+This repository contains a ready to use project template for compiling a program that uses Aurora™ Vision Library on Linux.
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
