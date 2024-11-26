@@ -8,7 +8,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 Compiling the program requires Ubuntu operating system with GNU gcc compiler installed. 
-Having Aurora (Aurora™ Vision Library)[https://www.adaptive-vision.com/en/user_area/download/] installed is also mandatory for include files.
+Having Aurora [Aurora™ Vision Library](https://www.adaptive-vision.com/en/user_area/download/) installed is also mandatory for include files.
 
 CMake will automatically fing AVL package.
 
@@ -23,4 +23,4 @@ CMake will automatically fing AVL package.
    make
    ```
 
-   Aurora™ Vision Library (Documentation)[https://docs.adaptive-vision.com/current/avl/]
+   Aurora™ Vision Library [Documentation](https://docs.adaptive-vision.com/current/avl/)
