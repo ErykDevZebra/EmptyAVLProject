@@ -23,4 +23,4 @@ CMake will automatically fing AVL package.
    make
    ```
 
-   Aurora™ Vision Library [Documentation](https://docs.adaptive-vision.com/current/avl/)
+Aurora™ Vision Library [Documentation](https://docs.adaptive-vision.com/current/avl/)
