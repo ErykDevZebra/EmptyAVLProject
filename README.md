@@ -1,6 +1,3 @@
-# EmptyAVLProject
-Project containing a configuration for an application using AVL library
-
 <!-- GETTING STARTED -->
 ## Getting Started
 This repository contains a ready to use project template for compiling a program using AVL library on Linux.
