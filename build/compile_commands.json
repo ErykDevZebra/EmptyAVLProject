@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/home/mk6554/Desktop/EmptyAVLProject/build",
-  "command": "/usr/bin/g++  -I/home/mk6554/Desktop/EmptyAVLProject/build/../sources -isystem /opt/AuroraVision/AVL-5.4.7/include -g -std=gnu++17 -o CMakeFiles/MyExecutable.dir/home/mk6554/Desktop/EmptyAVLProject/sources/main.cpp.o -c /home/mk6554/Desktop/EmptyAVLProject/sources/main.cpp",
-  "file": "/home/mk6554/Desktop/EmptyAVLProject/sources/main.cpp"
-}
-]
