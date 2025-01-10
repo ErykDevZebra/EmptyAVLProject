@@ -4,7 +4,7 @@ This repository contains a ready to use project template for compiling a program
 To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
-Compiling the program requires Ubuntu operating system with GNU gcc compiler installed. 
+Compiling the program requires Ubuntu operating system with GNU gcc compiler and CMake installed. 
 Having Aurora [Aurora™ Vision Library](https://www.adaptive-vision.com/en/user_area/download/) installed is also mandatory for include files.
 
 CMake installation on Ubuntu
