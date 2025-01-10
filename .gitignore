@@ -32,3 +32,17 @@
 *.exe
 *.out
 *.app
+
+.vs/
+.vscode/
+
+cmake_install.cmake
+compile_commands.json
+Makefile
+
+CMakeCache.txt
+
+*.dllso
+
+/build/**
+/CMakeFiles/**
