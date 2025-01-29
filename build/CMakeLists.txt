@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.22)
+cmake_minimum_required(VERSION 3.10)
 
 project(ProjectName)
 #include(../headers/CMakeLists.txt)
@@ -16,11 +16,16 @@ set(EXECUTABLE_FILE MyExecutable)
 set(SRC_DIR "../sources")
 set(HEAD_DIR "../headers")
 
-# Collect all .cpp files in the src directory
-file(GLOB_RECURSE SRC_FILES "${SRC_DIR}/*.cpp")
 
-# Optionally, include header files for IDEs
-file(GLOB_RECURSE HEADER_FILES "${HEAD_DIR}/*.h")
+set(SRC_FILES
+    ${SRC_DIR}/main.cpp
+    #${SRC_DIR}/other.cpp
+)
+
+set(HEADER_FILES
+    ${HEAD_DIR}/main.h
+    #${HEAD_DIR}/other.h
+)
 
 find_package(
     AVL
