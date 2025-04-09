@@ -1,8 +1,6 @@
 cmake_minimum_required(VERSION 3.10)
 
-project(ProjectName)
-#include(../headers/CMakeLists.txt)
-
+project(EmptyAVLProject)
 
 # Specify the C++ standard
 set(CMAKE_CXX_STANDARD 17)
@@ -11,10 +9,10 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 # Specify the source directory
 
 # Define the executable name
-set(EXECUTABLE_FILE MyExecutable)
+set(EXECUTABLE_FILE Executable)
 
-set(SRC_DIR "../sources")
-set(HEAD_DIR "../headers")
+set(SRC_DIR "./sources")
+set(HEAD_DIR "./headers")
 
 
 set(SRC_FILES
@@ -30,13 +28,15 @@ set(HEADER_FILES
 find_package(
     AVL
     # for a specific version, uncomment the line below
-    #5.3
+    #5.4
     CONFIG
     REQUIRED
 )
 
-# copy binaries to build directory
-#copy_avl()
+# copy binaries to build directory (unnecessary on Ubuntu)
+IF (WIN32)
+    copy_avl()
+ENDIF()
 
 # Add an executable with all the source files
 add_executable(${EXECUTABLE_FILE} ${SRC_FILES} ${HEADER_FILES})
@@ -67,6 +67,7 @@ add_custom_target(clear
     COMMAND ${CMAKE_COMMAND} -E remove "${CMAKE_BINARY_DIR}/${EXECUTABLE_FILE}"
 
     COMMAND ${CMAKE_COMMAND} -E remove "${CMAKE_BINARY_DIR}/*.so"
+    COMMAND ${CMAKE_COMMAND} -E remove "${CMAKE_BINARY_DIR}/*.dll"
 
     COMMENT "Removing CMake-generated files and the executable"
 )
